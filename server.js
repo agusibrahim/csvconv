@@ -65,7 +65,7 @@ function processExcelFile(filePath) {
 
         headerMap.forEach((colIdx, key) => {
           if (colIdx < row.length && row[colIdx] !== undefined && row[colIdx] !== '') {
-            let value = row[colIdx].toString().trim();
+            let value = row[colIdx].toString().trim().replace(/,/g, '.');
             switch (key) {
               case 'saldo':
                 const num = parseFloat(value);
