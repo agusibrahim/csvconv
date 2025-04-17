@@ -18,7 +18,7 @@ const columnMappings = [
   { key: 'ovd', aliases: ['overdue', 'ovd', 'daysoverdue', 'overdu', 'hari', 'keterlambatan', 'dayslate'] },
   { key: 'saldo', aliases: ['saldo', 'credit', 'balance', 'amount', 'remaining'] },
   { key: 'cabang', aliases: ['branchfullname', 'cabang', 'branch', 'office', 'location'] },
-  { key: 'nama', aliases: ['ket', 'keterangan', 'catatan'] },
+  { key: 'nama', aliases: ['ket', 'keterangan', 'catatan', 'cat'] },
   { key: 'noka', aliases: ['chasisno', 'nomorrangka', 'norangka', 'no.rangka', 'noka', 'chassis', 'frame'] },
   { key: 'nosin', aliases: ['nomesin', 'nomormesin', 'no.mesin', 'nosin', 'engine', 'engineno'] },
 ];
